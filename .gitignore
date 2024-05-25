@@ -1,2 +1,2 @@
-/medias_input/*
-/medias_output/
+/medias_input/[^/]+\.txt$
+/medias_output/*
