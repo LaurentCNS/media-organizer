@@ -1,7 +1,7 @@
 # Organisateur de Médias
 
 ## Description
-L'Organisateur de Médias est un script PHP conçu pour organiser automatiquement les fichiers multimédias (photos et vidéos) par année de création. Il parcourt un répertoire source contenant des fichiers multimédias et les déplace dans des sous-répertoires correspondant à l'année de création de chaque fichier multimédia. De plus, il gère les fichiers multimédias sans date de création en les déplaçant vers un répertoire séparé.
+L'Organisateur de Médias est un script PHP CLI conçu pour organiser automatiquement et rapidement les fichiers multimédias (photos et vidéos) par année et mois de création. Il parcourt un répertoire source contenant des fichiers multimédias et les déplace dans des sous-répertoires correspondant à l'année de création de chaque fichier multimédia. De plus, il gère les fichiers multimédias sans date de création en les déplaçant vers un répertoire séparé.
 
 ## Fonctionnalités
 - Organisation automatique des fichiers multimédias par année de création.
@@ -12,8 +12,9 @@ L'Organisateur de Médias est un script PHP conçu pour organiser automatiquemen
 ## Utilisation
 1. Clonez ou téléchargez ce dépôt sur votre système.
 2. Placez vos fichiers multimédias dans le répertoire `medias_input`.
-3. Exécutez la commande suivante dans le SHELL `php organize.php`.
+3. Exécutez la commande suivante dans le SHELL `php organize_years.php`.
 4. Les fichiers multimédias organisés seront déplacés dans le répertoire `medias_output`.
+5. Exécuter ensuite la commande suivante dans le SHELL `php organizer_month`pour réorganiser par mois si souhaité (optionnel).
 
 ## Configuration
 - Vous pouvez modifier les répertoires source et destination dans le script si nécessaire.
