@@ -40,7 +40,7 @@ function organizeFilesByMonth($sourceFolder) {
                     '06' => '06-juin',
                     '07' => '07-juillet',
                     '08' => '08-août',
-                    '09' => '09septembre',
+                    '09' => '09-septembre',
                     '10' => '10-octobre',
                     '11' => '11-novembre',
                     '12' => '12-décembre'
